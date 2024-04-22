@@ -20,4 +20,13 @@ describe("Verify radio buttons via webdriveruni", () => {
 
         cy.get("[value='cabbage']").should('be.disabled')
     })
+
+    /* ==== Test Created with Cypress Studio ==== */
+    it('click on radio buttons', function() {
+        /* ==== Generated with Cypress Studio ==== */
+        cy.get('[value="blue"]').check();
+        cy.get('[value="green"]').check();
+        cy.get('[value="yellow"]').check();
+        /* ==== End Cypress Studio ==== */
+    });
 })
